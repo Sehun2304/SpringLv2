@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor
 @Table(name = "post")
+//timestamped를 상속받아 게시글 작성시간을 포함함
 public class Post extends TimeStamped {
 
     @Id

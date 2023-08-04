@@ -4,6 +4,8 @@ import lombok.Getter;
 
 import java.util.List;
 
+
+//글 목록을 list 형식으로 반환
 @Getter
 public class PostListResponseDto {
     private List<PostResponseDto> postsList;
